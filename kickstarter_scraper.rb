@@ -13,7 +13,7 @@ def create_project_hash
 
   puts names
 
-  binding.pry
+  #binding.pry
 end
 
 create_project_hash
