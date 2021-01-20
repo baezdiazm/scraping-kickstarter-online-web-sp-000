@@ -9,7 +9,8 @@ def create_project_hash
       # projects: kickstarter.css("li.project.grid_4")
       # title: project.css("h2.bbcard_name strong a").text
   project = kickstarter.css("li.project.grid_4")
-  names << project.css("h2.bbcard_name strong a").text
+  names = []
+  project.css("h2.bbcard_name strong a").text
 
   puts names
 
