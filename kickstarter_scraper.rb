@@ -12,7 +12,6 @@ def create_project_hash
   names = project.css("h2.bbcard_name strong a").text
 
   puts names
-  end
 
   binding.pry
 end
